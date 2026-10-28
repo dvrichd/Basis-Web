@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Berita dan Inspirasi Kampus</title>
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body { background-color: #f8f9fa; font-size: 0.9rem; }
+
+    /* Logo "K" di navbar */
+    .logo-box {
+      width: 40px; height: 40px;
+      background-color: #2970ff;
+      color: #fff;
+      display: flex; align-items: center; justify-content: center;
+      font-weight: 700; border-radius: 4px;
+    }
+
+    /* Band biru di bawah navbar */
+    .page-header { background-color: #2970ff; color: #fff; }
+    .page-header small { font-size: 0.7rem; letter-spacing: .5px; }
+
+    /* Kotak gambar placeholder berwarna */
+    .img-box {
+      display: flex; align-items: center; justify-content: center;
+      color: #fff; font-weight: 600; text-align: center;
+      border-radius: 4px;
+    }
+    .img-hero    { background-color: #2970ff; height: 235px; font-size: 1.9rem; }
+    .img-green   { background-color: #1f8754; height: 230px; font-size: 1.9rem; }
+    .img-purple  { background-color: #6610f2; height: 230px; font-size: 2.2rem; }
+    .img-gallery { height: 115px; font-size: 1.9rem; }
+    .img-related { height: 103px; font-size: 1rem; border-radius: 0; }
+
+    .caption { font-size: 0.7rem; color: #6c757d; margin-top: 4px; }
+
+    blockquote.quote {
+      border-left: 3px solid #2970ff;
+      padding-left: 12px;
+      font-size: 0.8rem;
+    }
+
+    .article-card { box-shadow: 0 1px 4px rgba(0,0,0,.08); }
+    .badge-sm { font-size: 0.6rem; }
+
+    footer { background-color: #212529; color: #fff; }
+    footer a { color: #fff; text-decoration: none; font-size: 0.75rem; }
+    footer .text-muted-light { color: #adb5bd; font-size: 0.7rem; }
+  </style>
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="bg-white">
+    <div class="container py-2 d-flex justify-content-between align-items-center">
+      <div class="logo-box">K</div>
+      <div class="d-flex gap-2">
+        <a href="#" class="btn btn-primary btn-sm py-0 px-2" style="font-size:0.65rem">Beranda</a>
+        <a href="#" class="btn btn-outline-primary btn-sm py-0 px-2" style="font-size:0.65rem">Profil</a>
+        <a href="#" class="btn btn-outline-primary btn-sm py-0 px-2" style="font-size:0.65rem">Kontak</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========== HEADER ========== -->
+  <header class="page-header py-2 mb-4">
+    <div class="container">
+      <small class="d-block fw-semibold">PORTAL INFORMASI MAHASISWA</small>
+      <h1 class="h5 fw-bold mb-0">Berita dan Inspirasi Kampus</h1>
+    </div>
+  </header>
+
+  <!-- ========== ARTIKEL UTAMA ========== -->
+  <main class="container">
+    <article class="bg-white article-card p-4 mb-4">
+
+      <span class="badge bg-success badge-sm mb-2">Teknologi</span>
+      <h2 class="fw-bold h3 mb-2">Mahasiswa Mengembangkan Inovasi Digital untuk Masa Depan</h2>
+      <p class="text-muted mb-3" style="font-size:0.7rem">
+        Oleh Andi Pratama &nbsp;|&nbsp; 25 Oktober 2026 &nbsp;|&nbsp; 6 menit membaca
+      </p>
+
+      <!-- Gambar utama -->
+      <figure class="mb-3">
+        <div class="img-box img-hero">Inovasi Digital Mahasiswa</div>
+        <figcaption class="caption">Mahasiswa mengembangkan teknologi digital untuk membantu menyelesaikan permasalahan masyarakat.</figcaption>
+      </figure>
+
+      <p>Perkembangan teknologi digital membuka peluang bagi mahasiswa untuk menciptakan berbagai inovasi yang bermanfaat bagi masyarakat.</p>
+      <p>Saat ini, teknologi tidak hanya digunakan untuk berkomunikasi dan mencari informasi. Teknologi juga dimanfaatkan untuk mengembangkan layanan pendidikan, kesehatan, transportasi, hingga pengelolaan usaha kecil.</p>
+      <p>Sejumlah mahasiswa mulai mengembangkan aplikasi yang dapat membantu masyarakat menyelesaikan permasalahan sehari-hari. Proses pengembangan tersebut melibatkan penelitian, diskusi, perancangan antarmuka, dan pengujian.</p>
+
+      <!-- Seksi 1 -->
+      <h3 class="h6 fw-bold mt-4">Kolaborasi Menjadi Kunci Inovasi</h3>
+      <p>Pengembangan sebuah produk digital membutuhkan kerja sama dari berbagai bidang. Mahasiswa perlu memahami kebutuhan pengguna sekaligus menguasai teknologi yang digunakan.</p>
+
+      <figure class="mb-3">
+        <div class="img-box img-green">Kolaborasi Mahasiswa</div>
+        <figcaption class="caption">Diskusi tim membantu mahasiswa bertukar ide dan mengevaluasi solusi yang sedang dikembangkan.</figcaption>
+      </figure>
+
+      <blockquote class="quote mb-4">
+        <p class="mb-0">Inovasi yang baik bukan hanya menggunakan teknologi terbaru, tetapi juga memberikan manfaat nyata bagi penggunanya.</p>
+        <footer class="text-muted" style="font-size:0.7rem">— Dosen pembimbing proyek inovasi</footer>
+      </blockquote>
+
+      <!-- Seksi 2 -->
+      <h3 class="h6 fw-bold">Tahapan Mengembangkan Produk Digital</h3>
+      <p class="mb-2">Untuk menghasilkan produk yang bermanfaat, mahasiswa dapat mengikuti beberapa tahapan berikut:</p>
+      <ol>
+        <li>Mengidentifikasi masalah yang dihadapi pengguna.</li>
+        <li>Mengumpulkan informasi dan menentukan kebutuhan.</li>
+        <li>Membuat desain serta mengembangkan aplikasi.</li>
+        <li>Melakukan pengujian dan memperbaiki kekurangan.</li>
+        <li>Mengevaluasi manfaat produk setelah digunakan.</li>
+      </ol>
+
+      <figure class="mb-3">
+        <div class="img-box img-purple">Pengujian Aplikasi</div>
+        <figcaption class="caption">Pengujian diperlukan untuk memastikan aplikasi berjalan sesuai kebutuhan pengguna.</figcaption>
+      </figure>
+
+      <!-- Galeri -->
+      <h3 class="h6 fw-bold mt-4">Galeri Kegiatan</h3>
+      <p>Berikut beberapa tahapan kegiatan dalam proses pengembangan inovasi digital mahasiswa.</p>
+
+      <div class="row g-2 mb-4">
+        <div class="col-4">
+          <div class="img-box img-gallery" style="background-color:#ffc107; color:#212529;">Riset</div>
+          <div class="caption">Riset kebutuhan pengguna</div>
+        </div>
+        <div class="col-4">
+          <div class="img-box img-gallery" style="background-color:#34c997; color:#212529;">Desain</div>
+          <div class="caption">Perancangan antarmuka</div>
+        </div>
+        <div class="col-4">
+          <div class="img-box img-gallery" style="background-color:#dc3545;">Evaluasi</div>
+          <div class="caption">Evaluasi hasil pengembangan</div>
+        </div>
+      </div>
+
+      <!-- Penutup -->
+      <h3 class="h6 fw-bold">Mempersiapkan Generasi Inovatif</h3>
+      <p>Melalui berbagai proyek dan kegiatan penelitian, mahasiswa dapat meningkatkan keterampilan teknis, komunikasi, dan kemampuan memecahkan masalah.</p>
+      <p>Dukungan kampus, dosen, dan mitra industri juga berperan penting dalam membantu mahasiswa menghasilkan solusi yang relevan dengan kebutuhan masyarakat.</p>
+
+      <!-- Tag -->
+      <div class="mt-4" style="font-size:0.7rem">
+        <strong>Tag:</strong>
+        <span class="badge bg-primary badge-sm">Teknologi</span>
+        <span class="badge bg-success badge-sm">Mahasiswa</span>
+        <span class="badge bg-warning text-dark badge-sm">Inovasi</span>
+      </div>
+    </article>
+
+    <!-- ========== ARTIKEL TERKAIT ========== -->
+    <section class="mb-5">
+      <h2 class="h5 fw-bold mb-3">Artikel Terkait</h2>
+      <div class="row g-3">
+
+        <div class="col-md-4">
+          <div class="card border-0 article-card h-100">
+            <div class="img-box img-related" style="background-color:#2970ff;">Kecerdasan Buatan</div>
+            <div class="card-body p-2">
+              <span class="badge bg-primary badge-sm">Teknologi</span>
+              <h3 class="fw-bold mt-1" style="font-size:0.8rem">Mengenal Perkembangan Kecerdasan Buatan</h3>
+              <p class="text-muted mb-2" style="font-size:0.7rem">Teknologi AI mulai dimanfaatkan untuk membantu berbagai aktivitas manusia.</p>
+              <a href="#" class="btn btn-outline-primary btn-sm py-0" style="font-size:0.65rem">Baca Artikel</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card border-0 article-card h-100">
+            <div class="img-box img-related" style="background-color:#1f8754;">Startup Mahasiswa</div>
+            <div class="card-body p-2">
+              <span class="badge bg-success badge-sm">Bisnis</span>
+              <h3 class="fw-bold mt-1" style="font-size:0.8rem">Peluang Bisnis Digital bagi Mahasiswa</h3>
+              <p class="text-muted mb-2" style="font-size:0.7rem">Kreativitas dan teknologi membuka peluang usaha baru bagi generasi muda.</p>
+              <a href="#" class="btn btn-outline-primary btn-sm py-0" style="font-size:0.65rem">Baca Artikel</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card border-0 article-card h-100">
+            <div class="img-box img-related" style="background-color:#6610f2;">Belajar Online</div>
+            <div class="card-body p-2">
+              <span class="badge bg-warning text-dark badge-sm">Pendidikan</span>
+              <h3 class="fw-bold mt-1" style="font-size:0.8rem">Cara Belajar Efektif di Era Digital</h3>
+              <p class="text-muted mb-2" style="font-size:0.7rem">Mahasiswa dapat memanfaatkan sumber belajar digital untuk meningkatkan kompetensi.</p>
+              <a href="#" class="btn btn-outline-primary btn-sm py-0" style="font-size:0.65rem">Baca Artikel</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5 mb-3">
+          <h4 class="h6 fw-bold">Portal Berita Kampus</h4>
+          <p class="text-muted-light mb-0">Menyajikan informasi, inspirasi, dan perkembangan terbaru dari dunia kampus.</p>
+        </div>
+        <div class="col-6 col-md-3 mb-3">
+          <h4 class="fw-bold" style="font-size:0.7rem">Navigasi</h4>
+          <ul class="list-unstyled mb-0">
+            <li><a href="#">Beranda</a></li>
+            <li><a href="#">Profil</a></li>
+            <li><a href="#">Kontak</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-4 mb-3">
+          <h4 class="fw-bold" style="font-size:0.7rem">Informasi</h4>
+          <p class="text-muted-light mb-0">Email: info@kampus.ac.id<br>Indonesia</p>
+        </div>
+      </div>
+      <hr class="border-secondary">
+      <p class="text-center text-muted-light mb-0">© 2026 Portal Berita Kampus. Semua hak dilindungi.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
